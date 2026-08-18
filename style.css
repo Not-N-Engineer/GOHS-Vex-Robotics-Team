@@ -28,6 +28,10 @@
     box-shadow: 0 0 60px rgba(0,0,0,0.45);
   }
 
+  .binder.no-sidebar{
+    grid-template-columns: 1fr;
+  }
+
   /* ---------- CPP Colors ---------- */
   .keyword{
       color: #6435ca;
