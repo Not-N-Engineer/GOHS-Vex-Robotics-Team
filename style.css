@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    padding: 12px clamp(20px, 5vw, 48px);
+    padding: 16px clamp(30px, 10vw, 64px);
     background: var(--paper-dim);
     border-bottom: 3px solid var(--maroon);
     flex-wrap: wrap;
@@ -33,19 +33,19 @@
   .logo{
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
   }
 
   .logo img{
-    height: 48px;
-    width: 48px;
+    height: 64px;
+    width: 64px;
     object-fit: contain;
   }
 
   .team-name{
     font-family: var(--mono);
-    font-size: 13px;
-    letter-spacing: 0.08em;
+    font-size: 18px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--ink);
     font-weight: bold;
@@ -53,14 +53,14 @@
 
   .tab{
     display: flex;
-    gap: 4px;
+    gap: 5px;
     flex-wrap: wrap;
   }
 
   .tab a{
     display: inline-block;
     font-family: var(--mono);
-    font-size: 14.5px;
+    font-size: 15px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     text-decoration: none;
@@ -70,7 +70,7 @@
   }
 
   .tab a:hover{
-    background: var(--ink);
+    background: var(--grey);
     border-bottom-color: var(--rule);
   }
 
