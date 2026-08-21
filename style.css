@@ -20,6 +20,7 @@
 
   /* ---------- Topbar ---------- */
   .topbar{
+    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
@@ -30,6 +31,7 @@
   }
 
   .logo{
+    display: flex;
     align-items: center;
     gap: 14px;
   }
@@ -46,6 +48,12 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--gray);
+  }
+
+  .tab{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
   }
 
   .tab a{
