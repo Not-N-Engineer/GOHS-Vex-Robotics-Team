@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    padding: 12px clamp(20px, 5vw, 64px);
+    padding: 12px clamp(20px, 5vw, 48px);
     background: var(--paper-dim);
     border-bottom: 3px solid var(--maroon);
     flex-wrap: wrap;
@@ -47,7 +47,7 @@
     font-size: 13px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--gray);
+    color: var(--ink);
   }
 
   .tab{
@@ -57,26 +57,27 @@
   }
 
   .tab a{
-    display: block;
-    padding: 7px 10px 7px 16px;
-    margin-left: -1px;
-    border-left: 2px solid transparent;
-    color: var(--ink);
-    text-decoration: none;
+    font-family: var(--mono);
     font-size: 14.5px;
+    display: inline-block;
+    padding: 7px 10px 7px 16px;
+    border-bottom: 2px solid transparent;
+    color: var(--ink);
+    text-transform: uppercase;
+    text-decoration: none;
+    
     line-height: 1.4;
   }
 
   .tab a:hover{
-    background: rgba(35,36,31,0.06);
-    border-left-color: var(--rule);
+    background: var(--ink);
+    border-bottom-color: var(--rule);
   }
 
   .tab a.current{
-    border-left-color: var(--redline);
-    color: var(--redline);
+    border-bottom-color: var(--maroon);
+    color: var(--maroon);
     font-weight: bold;
-    background: rgba(164,51,31,0.07);
   }
 
   /* ---------- Main page ---------- */
