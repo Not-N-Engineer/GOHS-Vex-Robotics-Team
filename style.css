@@ -51,20 +51,20 @@
   }
 
   .tab{
+    font-family: var(--mono);
+    text-transform: uppercase;
+    text-decoration: none;
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
   }
 
   .tab a{
-    font-family: var(--mono);
     font-size: 14.5px;
     display: inline-block;
     padding: 7px 10px 7px 16px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     color: var(--ink);
-    text-transform: uppercase;
-    text-decoration: none;
     
     line-height: 1.4;
   }
