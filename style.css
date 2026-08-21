@@ -12,7 +12,7 @@
   *{ box-sizing:border-box; }
 
   body{
-    margin:0;
+    margin: 0;
     background: var(--paper);
     color: var(--ink);
     font-family: var(--serif);
@@ -48,25 +48,25 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ink);
+    font-weight: bold;
   }
 
   .tab{
-    font-family: var(--mono);
-    text-transform: uppercase;
-    text-decoration: none;
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
   }
 
   .tab a{
-    font-size: 14.5px;
     display: inline-block;
-    padding: 7px 10px 7px 16px;
+    font-family: var(--mono);
+    font-size: 14.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:10px 18px;
     border-bottom: 3px solid transparent;
     color: var(--ink);
-    
-    line-height: 1.4;
   }
 
   .tab a:hover{
@@ -82,11 +82,12 @@
 
   /* ---------- Main page ---------- */
   main{
-    padding: clamp(28px, 5vw, 56px) clamp(20px, 6vw, 72px) clamp(40px, 6vw, 80px) clamp(20px, 5vw, 64px);
+    padding: clamp(28px, 5vw, 56px) clamp(20px, 6vw, 72px);
     max-width: 110ch;
+    margin: 0 auto;
   }
 
-  h1{
+  main h1{
     font-family: var(--serif);
     font-size: 40px;
     line-height: 1.15;
